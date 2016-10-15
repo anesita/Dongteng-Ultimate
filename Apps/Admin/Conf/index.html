@@ -1,0 +1,757 @@
+<style>li{
+    list-style: none;
+}
+td{
+    line-height: 30px;
+    padding-left: 10px;
+}</style>
+<div style="background-color: #044996;height: 40px;">
+    <div style="line-height: 40px;color: #fff;font-size: 26px;padding-left: 10px;float: left;">
+        型号 Model
+    </div>
+    <div style="float: right;">
+        <ul>
+            <li style="color: #fff;font-size:20px;line-height: 40px;float: left;padding: 0px 23px;font-family: Arial;">
+                DTCP-A4-5
+            </li>
+            <li style="color: #fff;font-size:20px;line-height: 40px;float: left;padding: 0px 23px;font-family: Arial;">
+                DTCP-A4-10
+            </li>
+            <li style="color: #fff;font-size:20px;line-height: 40px;float: left;padding: 0px 23px;font-family: Arial;">
+                DTCP-A4-20
+            </li>
+        </ul>
+    </div>
+</div>
+<div style="line-height: 52px;border-bottom: 2px solid #044996;font-size: 26px;color: #044996;padding-left: 10px;">
+    分切单元 &nbsp;Sheet Unit
+</div>
+<div>
+    <table style="width: 60%;float: left;">
+        <tbody>
+        <tr style="border-bottom: 2px dashed #9e9e9e;">
+            <td style="color: rgb(88, 87, 87); width: 40%;">
+                    <span style="font-size:16px">无轴放卷架
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87); width: 60%;">
+                    <span style="font-size:16px">Non-Shaft Unwind Reels
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px dashed #9e9e9e;">
+            <td style="color: rgb(88, 87, 87); width: 40%;">
+                    <span style="font-size:16px">纵切数
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87); width: 60%;">
+                    <span style="font-size:16px">Number of Pocket
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px dashed #9e9e9e;">
+            <td style="color: rgb(88, 87, 87); width: 40%;">
+                    <span style="font-size:16px">最大纸卷宽度(mm)
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87); width: 60%;">
+                    <span style="font-size:16px">Max. Width of Paper Roll(mm)
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px dashed #9e9e9e;">
+            <td style="color: rgb(88, 87, 87); width: 40%;">
+                    <span style="font-size:16px">纸卷净宽(mm)
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87); width: 60%;">
+                    <span style="font-size:16px">Net Cutting Width(mm)
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px dashed #9e9e9e;">
+            <td style="color: rgb(88, 87, 87); width: 40%;">
+                    <span style="font-size:16px">纸卷直径(mm)
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87); width: 60%;">
+                    <span style="font-size:16px">Diameter of Paper Roll(mm)
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px dashed #9e9e9e;">
+            <td style="color: rgb(88, 87, 87); width: 40%;">
+                    <span style="font-size:16px">卷芯直径（mm）
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87); width: 60%;">
+                    <span style="font-size:16px">Diameter of Core Chuck(mm)
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px dashed #9e9e9e;">
+            <td style="color: rgb(88, 87, 87); width: 40%;">
+                    <span style="font-size:16px">纸张克重(克/平方)
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87); width: 60%;">
+                    <span style="font-size:16px">Paper GSM(gsm)
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px dashed #9e9e9e;">
+            <td style="color: rgb(88, 87, 87); width: 40%;">
+                    <span style="font-size:16px">切纸长度(mm)
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87); width: 60%;">
+                    <span style="font-size:16px">Length of Sheeted Paper (mm)
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px dashed #9e9e9e;">
+            <td style="color: rgb(88, 87, 87); width: 40%;">
+                    <span style="font-size:16px">令纸数量(张)
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87); width: 60%;">
+                    <span style="font-size:16px">Paper Quantity per Ream (pcs)
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px dashed #9e9e9e;">
+            <td style="color: rgb(88, 87, 87); width: 40%;">
+                    <span style="font-size:16px">最大令纸厚度(mm)
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87); width: 60%;">
+                    <span style="font-size:16px">Max. Ream Height(mm)
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px dashed #9e9e9e;">
+            <td style="color: rgb(88, 87, 87); width: 40%;">
+                    <span style="font-size:16px">最高设计速度(m/min)
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87); width: 60%;">
+                    <span style="font-size:16px">Max. Designing Speed of Paper Runn...<br/>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px dashed #9e9e9e;">
+            <td style="color: rgb(88, 87, 87); width: 40%;">
+                    <span style="font-size:16px">分切速度(次/分钟)
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87); width: 60%;">
+                    <span style="font-size:16px">Cutting Speed(times/min)
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px dashed #9e9e9e;">
+            <td style="color: rgb(88, 87, 87); width: 40%;">
+                    <span style="font-size:16px">令纸排出周次(次/分钟)
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87); width: 60%;">
+                    <span style="font-size:16px">Frequency of Ream Discharge (times...
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px dashed #9e9e9e;">
+            <td style="color: rgb(88, 87, 87); width: 40%;">
+                    <span style="font-size:16px">实际切纸速度(m/min)
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87); width: 60%;">
+                    <span style="font-size:16px">Working Speed of Paper Running (m/...
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px dashed #9e9e9e;">
+            <td style="color: rgb(88, 87, 87); width: 40%;">
+                    <span style="font-size:16px">实际分切频率（次/分钟）
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87); width: 60%;">
+                    <span style="font-size:16px">Working Cutting Speed (times/min)
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px dashed #9e9e9e;height: 60px;">
+            <td style="color: rgb(88, 87, 87); width: 40%; line-height: 60px;">
+                    <span style="font-size:16px">实际令纸排出速度（次/..
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87); width: 60%; line-height: 60px;">
+                    <span style="font-size:16px">Transmission
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px dashed #9e9e9e;">
+            <td style="color: rgb(88, 87, 87); width: 40%;">
+                    <span style="font-size:16px">切纸负荷(克/平方)
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87); width: 60%;">
+                    <span style="font-size:16px">Max. Knife Loading(gsm)
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px dashed #9e9e9e;">
+            <td style="color: rgb(88, 87, 87); width: 40%;">
+                    <span style="font-size:16px">切纸精度(mm)
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87); width: 60%;">
+                    <span style="font-size:16px">Paper Cutting Accuracy(mm)
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px dashed #9e9e9e;height: 90px;">
+            <td style="color: rgb(88, 87, 87); width: 40%; line-height: 90px;">
+                    <span style="font-size:16px">纸卷要求
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87); width: 60%; line-height: 90px;">
+                    <span style="font-size:16px">Requirement for Paper Reel
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px dashed #9e9e9e;height: 60px;">
+            <td style="color: rgb(88, 87, 87); width: 40%; line-height: 60px;">
+                    <span style="font-size:16px">传动
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87); width: 60%; line-height: 60px;">
+                    <span style="font-size:16px">Transmission
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px dashed #9e9e9e;">
+            <td style="color: rgb(88, 87, 87); width: 40%;">
+                    <span style="font-size:16px">主电源
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87); width: 60%;">
+                    <span style="font-size:16px">Main Power Source
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px dashed #9e9e9e;">
+            <td style="color: rgb(88, 87, 87); width: 40%;">
+                    <span style="font-size:16px">控制电源
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87); width: 60%;">
+                    <span style="font-size:16px">Control Voltage
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px dashed #9e9e9e;">
+            <td style="color: rgb(88, 87, 87); width: 40%;">
+                    <span style="font-size:16px">装机容量(Kw)
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87); width: 60%;">
+                    <span style="font-size:16px">Total Power(Kw)
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px dashed #9e9e9e;">
+            <td style="color: rgb(88, 87, 87); width: 40%;">
+                    <span style="font-size:16px">压缩空气消耗(NL/min)
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87); width: 60%;">
+                    <span style="font-size:16px">Air Consumption (NL/min)
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px dashed #9e9e9e;">
+            <td style="color: rgb(88, 87, 87); width: 40%;">
+                    <span style="font-size:16px">压缩空气压力(bar)
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87); width: 60%;">
+                    <span style="font-size:16px">Pneumatic Pressure(bar)
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px dashed #9e9e9e;">
+            <td style="color: rgb(88, 87, 87); width: 40%;">
+                    <span style="font-size:16px">设备尺寸(m) (长x宽x高)
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87); width: 60%;">
+                    <span style="font-size:16px">Overall Dimension(m) (LxWx H)
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="color: rgb(88, 87, 87); width: 40%;">
+                    <span style="font-size:16px">机器重量（吨）
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87); width: 60%;">
+                    <span style="font-size:16px">Weight （T）
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <table style="width: 40%;float: left;background: #eee;">
+        <tbody>
+        <tr style="border-bottom: 2px solid #fff;">
+            <td style="color: rgb(88, 87, 87);">
+                    <span style="font-size:16px">1
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87);">
+                    <span style="font-size:16px">2
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87);">
+                    <span style="font-size:16px">4
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px solid #fff;">
+            <td style="color: rgb(88, 87, 87);">
+                    <span style="font-size:16px">2
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87);">
+                    <span style="font-size:16px">4
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87);">
+                    <span style="font-size:16px">4
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px solid #fff;">
+            <td style="color: rgb(88, 87, 87);">
+                    <span style="font-size:16px">846
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87);">
+                    <span style="font-size:16px">846
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87);">
+                    <span style="font-size:16px">846
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px solid #fff;">
+            <td style="color: rgb(88, 87, 87);">
+                    <span style="font-size:16px">840
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87);">
+                    <span style="font-size:16px">840
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87);">
+                    <span style="font-size:16px">840
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px solid #fff;">
+            <td style="color: rgb(88, 87, 87); text-align: center;" colspan="3">
+                    <span style="font-size:16px">4-1200
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px solid #fff;">
+            <td style="color: rgb(88, 87, 87); text-align: center;" colspan="3">
+                    <span style="font-size:16px">3”(76.2mm) or 6”(152.4mm)
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px solid #fff;">
+            <td style="color: rgb(88, 87, 87); text-align: center;" colspan="3">
+                    <span style="font-size:16px">60-100
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px solid #fff;">
+            <td style="color: rgb(88, 87, 87); text-align: center;" colspan="3">
+                    <span style="font-size:16px">297
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px solid #fff;">
+            <td style="color: rgb(88, 87, 87); text-align: center;" colspan="3">
+                    <span style="font-size:16px">0-500
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px solid #fff;">
+            <td style="color: rgb(88, 87, 87); text-align: center;" colspan="3">
+                    <span style="font-size:16px">65
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px solid #fff;">
+            <td style="color: rgb(88, 87, 87);">
+                    <span style="font-size:16px">250-350
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87);">
+                    <span style="font-size:16px">250
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87);">
+                    <span style="font-size:16px">250
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px solid #fff;">
+            <td style="color: rgb(88, 87, 87);">
+                    <span style="font-size:16px">1010
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87);">
+                    <span style="font-size:16px">738
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87);">
+                    <span style="font-size:16px">738
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px solid #fff;">
+            <td style="color: rgb(88, 87, 87);">
+                    <span style="font-size:16px">6-8
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87);">
+                    <span style="font-size:16px">3
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87);">
+                    <span style="font-size:16px">6
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px solid #fff;">
+            <td style="color: rgb(88, 87, 87);">
+                    <span style="font-size:16px">250-300
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87);">
+                    <span style="font-size:16px">180-220
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87);">
+                    <span style="font-size:16px">180-220
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px solid #fff;">
+            <td style="color: rgb(88, 87, 87);">
+                    <span style="font-size:16px">1010
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87);">
+                    <span style="font-size:16px">437
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87);">
+                    <span style="font-size:16px">437
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px solid #fff;">
+            <td style="color: rgb(88, 87, 87); line-height: 30px;">
+                    <span style="font-size:16px">3-4(6—8包/<br/>分钟ream...
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87); line-height: 30px;">
+                    <span style="font-size:16px">2.5—3 (8—10包...<br/>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87); line-height: 30px;">
+                    <span style="font-size:16px">5--6(20--25包...<br/>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px solid #fff;">
+            <td style="color: rgb(88, 87, 87); text-align: center;" colspan="3">
+                    <span style="font-size:16px">400
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px solid #fff;">
+            <td style="color: rgb(88, 87, 87); text-align: center;" colspan="3">
+                    <span style="font-size:16px">±0.2
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px solid #fff;">
+            <td style="color: rgb(88, 87, 87); text-align: center; line-height: 30px;" colspan="3">
+                    <span style="font-size:16px">1.速度稳定Stable speed <br/>2.纸卷无断头Paper roll with no breakage<br/>3. 合格质量Qualified paper .<br/>交流变频无级调速<br/> AC frequency conversion, stepless speed...<br/> 380v/50Hz 3相4线3phase 4 wires
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px solid #fff;">
+            <td style="color: rgb(88, 87, 87); text-align: center;" colspan="3">
+                    <span style="font-size:16px">220V AC/22V DC
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px solid #fff;">
+            <td style="color: rgb(88, 87, 87);">
+                    <span style="font-size:16px">10
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87);">
+                    <span style="font-size:16px">22
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87);">
+                    <span style="font-size:16px">22
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px solid #fff;">
+            <td style="color: rgb(88, 87, 87); text-align: center;" colspan="3">
+                    <span style="font-size:16px">300
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px solid #fff;">
+            <td style="color: rgb(88, 87, 87); text-align: center;" colspan="3">
+                    <span style="font-size:16px">0.6-0.8
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px solid #fff;">
+            <td style="color: rgb(88, 87, 87);">
+                    <span style="font-size:16px">6.8x6.6x1.8
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87);">
+                    <span style="font-size:16px">16× 2.750× 2.100
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87);">
+                    <span style="font-size:16px">16.5×2.75×2.1
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="color: rgb(88, 87, 87);">
+                    <span style="font-size:16px">10
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87);">
+                    <span style="font-size:16px">12
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+            </td>
+            <td style="color: rgb(88, 87, 87);">
+                    <span style="font-size:16px">15
+ &nbsp; &nbsp; &nbsp; </span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <div style="clear: both;"></div>
+</div>
+<div style="clear: both;height: 0px;    "></div>
+<div style="line-height: 52px;border-bottom: 2px solid #044996;border-top: 2px solid #044996;font-size: 26px;color: #044996;padding-left: 10px;padding-top: 0px;">
+    包装单元 &nbsp;Wrapping Unit
+</div>
+<div>
+    <table style="width: 60%;float: left;">
+        <tbody>
+        <tr style="border-bottom: 2px dashed #9e9e9e;">
+            <td style="color: #585757;font-size: 14px;width: 40%;">
+                包装速度(包/分钟)
+            </td>
+            <td style="color: #585757;font-size: 14px;width: 60%;">
+                Production Efficiency(reams/min)
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px dashed #9e9e9e;">
+            <td style="color: #585757;font-size: 14px;width: 40%;">
+                卷筒外包纸自动横切进...
+            </td>
+            <td style="color: #585757;font-size: 14px;width: 60%;">
+                Automatic Transverse Cutting and...<br/>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px dashed #9e9e9e;">
+            <td style="color: #585757;font-size: 14px;width: 40%;">
+                (包/分钟)
+            </td>
+            <td style="color: #585757;font-size: 14px;width: 60%;">
+                Function of Roll Overwrap Paper (re...
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px dashed #9e9e9e;">
+            <td style="color: #585757;font-size: 14px;width: 40%;">
+                包装物尺寸(mm)<br/>(按A4复印纸500张叠层...
+            </td>
+            <td style="color: #585757;font-size: 14px;width: 60%;">
+                Specification of Packed Object (mm)<br/>(based on height 500 pcs of copier p...
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px dashed #9e9e9e;">
+            <td style="color: #585757;font-size: 14px;width: 40%;">
+                电源
+            </td>
+            <td style="color: #585757;font-size: 14px;width: 60%;">
+                Power Supply
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px dashed #9e9e9e;">
+            <td style="color: #585757;font-size: 14px;width: 40%;">
+                电机功率(Kw)
+            </td>
+            <td style="color: #585757;font-size: 14px;width: 60%;">
+                Motor Power(Kw)
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px dashed #9e9e9e;">
+            <td style="color: #585757;font-size: 14px;width: 40%;">
+                喷胶机功率(Kw)
+            </td>
+            <td style="color: #585757;font-size: 14px;width: 60%;">
+                Gluing Power(Kw)
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px dashed #9e9e9e;">
+            <td style="color: #585757;font-size: 14px;width: 40%;">
+                压缩空气压力(mpa)
+            </td>
+            <td style="color: #585757;font-size: 14px;width: 60%;">
+                Compressed Air(mpa)
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px dashed #9e9e9e;">
+            <td style="color: #585757;font-size: 14px;width: 40%;">
+                外包纸尺寸(mm) (长x宽)
+            </td>
+            <td style="color: #585757;font-size: 14px;width: 60%;">
+                Overwrapping Paper Size(mm)(L ×W)
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px dashed #9e9e9e;">
+            <td style="color: #585757;font-size: 14px;width: 40%;">
+                设备尺寸(mm) (长x宽x高)
+            </td>
+            <td style="color: #585757;font-size: 14px;width: 60%;">
+                Overall Dimension(mm) (LxWx H)
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px solid #848484;">
+            <td style="color: #585757;font-size: 14px;width: 40%;">
+                机器重量（吨）
+            </td>
+            <td style="color: #585757;font-size: 14px;width: 60%;">
+                Weight （T）
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <table style="width: 40%;float: left;background: #eee;">
+        <tbody>
+        <tr style="border-bottom: 2px solid #fff;">
+            <td style="color: #585757;font-size: 14px;">
+                6-8
+            </td>
+            <td style="color: #585757;font-size: 14px;">
+                8-10
+            </td>
+            <td style="color: #585757;font-size: 14px;">
+                16-20
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px solid #fff;">
+            <td style="color: #585757;font-size: 14px;">
+                6-8
+            </td>
+            <td style="color: #585757;font-size: 14px;">
+                8-10
+            </td>
+            <td style="color: #585757;font-size: 14px;">
+                16-20
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px solid #fff;">
+            <td style="color: #585757;font-size: 14px;">
+                &nbsp;
+            </td>
+            <td style="color: #585757;font-size: 14px;">
+                &nbsp;
+            </td>
+            <td style="color: #585757;font-size: 14px;">
+                &nbsp;
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px solid #fff;">
+            <td style="color: #585757;font-size: 14px;text-align: center;line-height: 60px;" colspan="3">
+                210×297×50
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px solid #fff;">
+            <td style="color: #585757;font-size: 14px;text-align: center;" colspan="3">
+                380V 50HZ 3相4线3-phase 4 wires
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px solid #fff;">
+            <td style="color: #585757;font-size: 14px;">
+                5.1
+            </td>
+            <td style="color: #585757;font-size: 14px;">
+                6.5
+            </td>
+            <td style="color: #585757;font-size: 14px;">
+                6.5
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px solid #fff;">
+            <td style="color: #585757;font-size: 14px;">
+                2.25
+            </td>
+            <td style="color: #585757;font-size: 14px;">
+                2.25
+            </td>
+            <td style="color: #585757;font-size: 14px;">
+                2.25
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px solid #fff;">
+            <td style="color: #585757;font-size: 14px;text-align: center;" colspan="3">
+                0.6-0.8
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px solid #fff;">
+            <td style="color: #585757;font-size: 14px;text-align: center;" colspan="3">
+                550-560×386
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px solid #fff;">
+            <td style="color: #585757;font-size: 14px;text-align: center;" colspan="3">
+                3400x3300x1600
+            </td>
+        </tr>
+        <tr style="border-bottom: 2px solid #848484;">
+            <td style="color: #585757;font-size: 14px;">
+                1.5
+            </td>
+            <td style="color: #585757;font-size: 14px;">
+                2
+            </td>
+            <td style="color: #585757;font-size: 14px;">
+                2
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>

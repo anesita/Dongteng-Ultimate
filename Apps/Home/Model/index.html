@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+    <title>东腾机械</title>
+
+    <!-- Bootstrap core CSS -->
+    <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- 可选的Bootstrap主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=q7T7jQjsVBaureN2O5U4aHrP"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!--[if lte IE 6]>
+<!-- bsie css patch -->
+
+    <!-- bsie additional css patch -->
+    <!--[endif]-->
+
+
+</head>
+<style>
+    body{
+        padding: 0px;
+        margin: 0px;
+        font-family:Verdana,微软雅黑; *font-family:微软雅黑,Verdana;
+
+    }
+    img{
+        border:0px;
+        padding:0px;
+        margin: 0px;
+    }
+    ul{
+        list-style-type: none;
+        margin: 0px;
+        padding:0px;
+    }
+    #nav ul li{
+        float: left;
+        list-style: none;
+        color: #fff;
+        font-size: 16px;
+        padding: 0px 15px 0px;
+        line-height: 66px;
+    }
+    #nav ul li a{
+        color: #fff;
+    }
+    a{
+        text-decoration:none;
+    }
+    a:link{
+        text-decoration:none;
+    }
+    a:visited{
+        text-decoration:none;
+    }
+    a:hover{
+        text-decoration:none;
+    }
+    a:active{
+        text-decoration:none;
+    }
+</style>
+<body>
+<!--header-->
+<include file="Index/yuying" />
+<include file="Index/header" />
+<!--header -->
+<!--header_small-->
+<include file="Index/smallheader" />
+<!--./header——samll -->
+<!--color-->
+<!--./color -->
+<!--main-->
+<div class="visible-lg">
+    <div class="container">
+        <div class="col-sm-12" style="padding: 0px;margin: 0px;">
+            <div class="col-sm-9" style="padding: 0px;margin: 0px;padding-right: 36px;">
+                <div style="padding-top: 42px;">
+                    <h1 style="margin: 0px;font-size: 32px;line-height: 52px;">联系我们</h1>
+                    <p style="font-size: 16px;line-height: 26px;">吴泰集团东腾机械有限公司地处风景秀丽的海滨城市-瑞安，交通便利，气候宜人，人杰地灵，是以温州经济发展模式而崛起的“中国包装机械城”，它以其精良的工业基础，加工设施，先进的专业制造工艺，迅捷准确的机械信息，稳步全面地抢占了国内市场，在全球机械制造中享有一定的美誉。</p>
+                    <h1 style="margin: 0px;font-size: 32px;line-height: 52px;padding-top: 55px;">我要留言</h1>
+                    <hr style="margin-top: 0px;">
+                    <form action="" class="form-horizontal" method="post" enctype="multipart/form-data">
+                        <div class="col-sm-12" style="padding-left: 0px;padding-right: 0px;">
+                            <!-- <div class="col-sm-3" style="height: 62px;padding-left: 0px;padding-right: 0px;">*<br><input type="text" name="username" style="height: 30px;"></div> -->
+                            <div class="col-sm-3" style="height: 62px;padding-left: 0px;padding-right: 0px;">姓名*<br><input type="text" name="family" style="height: 30px;"></div>
+                            <div class="col-sm-3" style="height: 62px;padding-left: 0px;padding-right: 0px;">电子邮件<input type="email" name="email" style="height: 30px;"></div>
+                            <div class="col-sm-3" style="height: 62px;padding-left: 0px;padding-right: 0px;">手机号码*<input type="phone" name="phone" style="height: 30px;"></div>
+                            <div class="col-sm-3" style="height: 62px;padding-left: 0px;padding-right: 0px;">国家<br /><input type="text" name="country" style="height: 30px;;"></div>
+                            <div class="col-sm-3" style="height: 62px;padding-left: 0px;padding-right: 0px;">省/直辖市<br /><input type="text" name="province"></div>
+                            <div class="col-sm-3" style="height: 62px;padding-left: 0px;padding-right: 0px;">意向机型*<br /><input type="text" name="Model"></div>
+
+                            <div class="col-sm-12" style="padding: 0px;">
+                                <h5>设备要求</h5>
+                                <input type="text" name="Requirement" style="width: 100%;height:130px;padding-bottom: 50px;">
+                            </div>
+                            <div style="height: 38px;width: 100%;clear: both;"></div>
+                            <div class="col-sm-12" style="padding: 0px;"><button type="submit" style="width: 285px;height:38px;background: #b9c2cd;border: 0px;color: #fff;float: left;">提交</button>
+                            <p style="float: left;padding-left: 27px;font-size: 14px;">感谢您关注东腾公司,<br>我们将尽快与您联系!</p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+
+
+
+
+            </div>
+            <div class="col-sm-3" style="padding: 0px;margin: 0px;padding-top: 100px;">
+                <div style="width: 100%;height: 6px;background-color:#005bac;"></div>
+                <div>
+                    <h1 style="font-size: 22px;margin: 0px;color: #595757;line-height: 44px;">瑞安市东腾机械有限公司</h1>
+                    <ul style="padding-top: 4px;">
+                        <li style="font-size: 16px;line-height: 30px;">地址：浙江瑞安市巾子山路6号</li>
+                        <li style="font-size: 16px;line-height: 30px;">手机：013074681888</li>
+                        <li style="font-size: 16px;line-height: 30px;">电话：0577-65888482、65888481</li>
+                        <li style="font-size: 16px;line-height: 30px;">传真：0577-65888480</li>
+                        <li style="font-size: 16px;line-height: 30px;">邮编：325200</li>
+                        <li style="font-size: 16px;padding-top: 20px;">
+                          
+                            <div style="width:100%;height:220px;border:#ccc solid 1px;font-size:12px" id="map"></div>
+
+
+                           <script type="text/javascript">
+    //创建和初始化地图函数：
+    function initMap(){
+      createMap();//创建地图
+      setMapEvent();//设置地图事件
+      addMapControl();//向地图添加控件
+      addMapOverlay();//向地图添加覆盖物
+    }
+    function createMap(){ 
+      map = new BMap.Map("map"); 
+      map.centerAndZoom(new BMap.Point(120.645221,27.772954),16);
+    }
+    function setMapEvent(){
+      map.enableScrollWheelZoom();
+      map.enableKeyboard();
+      map.enableDragging();
+      map.enableDoubleClickZoom()
+    }
+    function addClickHandler(target,window){
+      target.addEventListener("click",function(){
+        target.openInfoWindow(window);
+      });
+    }
+    function addMapOverlay(){
+      var markers = [
+        {content:"",title:"东腾",imageOffset: {width:0,height:3},position:{lat:27.773178,lng:120.644466}}
+      ];
+      for(var index = 0; index < markers.length; index++ ){
+        var point = new BMap.Point(markers[index].position.lng,markers[index].position.lat);
+        var marker = new BMap.Marker(point,{icon:new BMap.Icon("http://api.map.baidu.com/lbsapi/createmap/images/icon.png",new BMap.Size(20,25),{
+          imageOffset: new BMap.Size(markers[index].imageOffset.width,markers[index].imageOffset.height)
+        })});
+        var label = new BMap.Label(markers[index].title,{offset: new BMap.Size(25,5)});
+        var opts = {
+          width: 200,
+          title: markers[index].title,
+          enableMessage: false
+        };
+        var infoWindow = new BMap.InfoWindow(markers[index].content,opts);
+        marker.setLabel(label);
+        addClickHandler(marker,infoWindow);
+        map.addOverlay(marker);
+      };
+    }
+    //向地图添加控件
+    function addMapControl(){
+      var navControl = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+      map.addControl(navControl);
+    }
+    var map;
+      initMap();
+  </script>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--./main -->
+<!--main_small-->
+<div class="hidden-lg">
+    <div class="container" style="width: 96%;">
+        <div style="padding-top: 18px;">
+            <h1 style="margin: 0px;font-size: 2.4rem;line-height: 6rem;">联系我们</h1>
+            <p style="font-size: 1.4rem;line-height: 1.8rem;">吴泰集团东腾机械有限公司地处风景秀丽的海滨城市-瑞安，交通便利，气候宜人，人杰地灵，是以温州经济发展模式而崛起的“中国包装机械城”，它以其精良的工业基础，加工设施，先进的专业制造工艺，迅捷准确的机械信息，稳步全面地抢占了国内市场，在全球机械制造中享有一定的美誉。</p>
+        </div>
+        <div style="width:100%;height:300px;border:#ccc solid 1px;font-size:12px;padding-top: 50px;" id="map1"></div>
+
+
+        <script type="text/javascript">
+    //创建和初始化地图函数：
+    function initMap(){
+      createMap();//创建地图
+      setMapEvent();//设置地图事件
+      addMapControl();//向地图添加控件
+      addMapOverlay();//向地图添加覆盖物
+    }
+    function createMap(){ 
+      map = new BMap.Map("map"); 
+      map.centerAndZoom(new BMap.Point(120.645221,27.772954),16);
+    }
+    function setMapEvent(){
+      map.enableScrollWheelZoom();
+      map.enableKeyboard();
+      map.enableDragging();
+      map.enableDoubleClickZoom()
+    }
+    function addClickHandler(target,window){
+      target.addEventListener("click",function(){
+        target.openInfoWindow(window);
+      });
+    }
+    function addMapOverlay(){
+      var markers = [
+        {content:"",title:"东腾",imageOffset: {width:0,height:3},position:{lat:27.773178,lng:120.644466}}
+      ];
+      for(var index = 0; index < markers.length; index++ ){
+        var point = new BMap.Point(markers[index].position.lng,markers[index].position.lat);
+        var marker = new BMap.Marker(point,{icon:new BMap.Icon("http://api.map.baidu.com/lbsapi/createmap/images/icon.png",new BMap.Size(20,25),{
+          imageOffset: new BMap.Size(markers[index].imageOffset.width,markers[index].imageOffset.height)
+        })});
+        var label = new BMap.Label(markers[index].title,{offset: new BMap.Size(25,5)});
+        var opts = {
+          width: 200,
+          title: markers[index].title,
+          enableMessage: false
+        };
+        var infoWindow = new BMap.InfoWindow(markers[index].content,opts);
+        marker.setLabel(label);
+        addClickHandler(marker,infoWindow);
+        map.addOverlay(marker);
+      };
+    }
+    //向地图添加控件
+    function addMapControl(){
+      var navControl = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+      map.addControl(navControl);
+    }
+    var map;
+      initMap();
+  </script>
+        <div>
+            <h1 style="margin: 0px;font-size: 1.6rem;line-height: 3.4rem;padding-top: 16px;">瑞安市东腾机械有限公司</h1>
+            <ul>
+                <li style="font-size: 1.4rem;line-height: 1.8rem;">地址：瑞安市东山工业区瑞光大道941号</li>
+                <li style="font-size: 1.4rem;line-height: 1.8rem;">手机：013074681888</li>
+                <li style="font-size: 1.4rem;line-height: 1.8rem;">电话：0577-65888482、65888481</li>
+                <li style="font-size: 1.4rem;line-height: 1.8rem;">传真：0577-65888480</li>
+                <li style="font-size: 1.4rem;line-height: 1.8rem;">邮编：325200</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--./main_small -->
+<!--footer-->
+<include file="Index/footer" />
+<!--./footer -->
+<!--footer_small-->
+<include file="Index/smallfooter" />
+<!--./footer_small-->
+</body>
+</html>

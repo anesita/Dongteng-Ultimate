@@ -1,0 +1,136 @@
+#animation
+{
+z-index: 999;
+width:400px;
+height:200px;
+background:red;
+position:relative;
+left: 500px;
+top: 15px;
+border: 3px solid #e8e8e8;
+box-shadow: 10px 10px 5px #888;
+animation:myfirst 15s linear 2s infinite alternate;
+/* Firefox: */
+-moz-animation:myfirst 15s linear 2s infinite alternate;
+/* Safari and Chrome: */
+-webkit-animation:myfirst 15s linear 2s infinite alternate;
+/* Opera: */
+-o-animation:myfirst 15s linear 2s infinite alternate;
+/*speed*/
+/*transform:rotate(40deg);*/
+}  
+
+@keyframes myfirst
+{
+0%   {
+	background:red; left:500px; top:0px;
+/*	transform: scale(1,1);
+	transform:rotate(80deg);*/
+}
+25%  {
+	background:yellow; left:50px; top:500px;
+/*	transform: scale(1,2);
+	transform:rotate(140deg);*/
+}
+50%  {
+	background:blue; left:200px; top:800px;
+/*	transform: scale(2,2);
+	transform:rotate(200deg);*/
+}
+75%  {
+	background:green; left:1500px; top:500px;
+/*	transform: scale(1,1);
+	transform:rotate(300deg);*/
+}
+100% {
+	background:red; left:200px; top:50px;
+/*	transform: scale(2,2);
+	transform:rotate(360deg);*/
+}
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+0%   {
+	background:red; left:500px; top:0px;
+	transform: scale(1,1);
+	transform:rotate(80deg);
+}
+25%  {
+	background:yellow; left:50px; top:500px;
+	transform: scale(1,2);
+	transform:rotate(140deg);
+}
+50%  {
+	background:blue; left:200px; top:1000px;
+	transform: scale(2,2);
+	transform:rotate(200deg);
+}
+75%  {
+	background:green; left:2000px; top:500px;
+	transform: scale(1,1);
+	transform:rotate(300deg);
+}
+100% {
+	background:red; left:200px; top:50px;
+	transform: scale(2,2);
+	transform:rotate(360deg);
+}
+}
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+0%   {
+	background:red; left:500px; top:0px;
+	transform: scale(1,1);
+	transform:rotate(80deg);
+}
+25%  {
+	background:yellow; left:50px; top:500px;
+	transform: scale(1,2);
+	transform:rotate(140deg);
+}
+50%  {
+	background:blue; left:200px; top:1000px;
+	transform: scale(2,2);
+	transform:rotate(200deg);
+}
+75%  {
+	background:green; left:2000px; top:500px;
+	transform: scale(1,1);
+	transform:rotate(300deg);
+}
+100% {
+	background:red; left:200px; top:50px;
+	transform: scale(2,2);
+	transform:rotate(360deg);
+}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+0%   {
+	background:red; left:500px; top:0px;
+	transform: scale(1,1);
+	transform:rotate(80deg);
+}
+25%  {
+	background:yellow; left:50px; top:500px;
+	transform: scale(1,2);
+	transform:rotate(140deg);
+}
+50%  {
+	background:blue; left:200px; top:1000px;
+	transform: scale(2,2);
+	transform:rotate(200deg);
+}
+75%  {
+	background:green; left:2000px; top:500px;
+	transform: scale(1,1);
+	transform:rotate(300deg);
+}
+100% {
+	background:red; left:200px; top:50px;
+	transform: scale(2,2);
+	transform:rotate(360deg);
+}
+}
